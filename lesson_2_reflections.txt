@@ -7,8 +7,9 @@ What value do you think it offers?
 
 As opposed to the working directory the staging area contains only those files that I consider to belong to the next commit. I can thus separate these files from other files that might contain changes but that I don't want to put into the next commit (but rather a later one). The staging area offers me better control over what changes I want to commit without keeping me from making changes to unrelated files that should not make it into the next commit.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to separate the files that contain the logical change you want to commit from the files of which the changes are unrelated to the logical change you want to be in the commit. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
