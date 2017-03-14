@@ -20,8 +20,9 @@ How do the diagrams help you visualize the branch structure?
 The diagrams show which commits belong to a certain branch. They also show which commits different branches have in common and which commits are unreachable from whithin certain branches. Overall the diagram shows the entire work that's been done on the project and helps planning for merges.
 
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When merging two branches (or one branch into another) two (or more) branches become one branch again. The lable of the branch one was in when executing the merge stays the label of the merged branch. 
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
