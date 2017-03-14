@@ -13,9 +13,12 @@ The staging area allows you to separate the files that contain the logical chang
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-Branches are helpful when trying out new things that might or might not end up in the finished version of the project. 
+Branches are helpful when trying out new things that might or might not end up in the finished version of the project.
 
 How do the diagrams help you visualize the branch structure?
+
+The diagrams show which commits belong to a certain branch. They also show which commits different branches have in common and which commits are unreachable from whithin certain branches. Overall the diagram shows the entire work that's been done on the project and helps planning for merges.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
