@@ -22,7 +22,8 @@ The diagrams show which commits belong to a certain branch. They also show which
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-When merging two branches (or one branch into another) two (or more) branches become one branch again. The lable of the branch one was in when executing the merge stays the label of the merged branch. 
+When merging two branches (or one branch into another) two (or more) branches become one branch again. The lable of the branch one was in when executing the merge stays the label of the merged branch.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+When merging a lot of the changes of the two branches might be unrelated and easily merged. Having git do this work is obviously a time saver. Also, git can do it without putting in new mistakes. However, there might be cases where Git's heuristics for doing the merge might be in error. Finding these errors later might cost time and effort, too.
