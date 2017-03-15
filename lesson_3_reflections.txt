@@ -21,10 +21,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 To see what changes were made locally since last push. To see what changes were made on the remote since last pull. It's also still possible at this point to create a new branch for the local changes based on the last commit that was pulled (as opposed to the last commit that exists remotely).
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+We'd probably create a lot of copies of files with different names then meet regularly to see which version of the files (or which portions of those files) we'd like to incorporate into the production code. It'd be a lot harder to keep track of who did what and based on which original version though. The only downside to using git is the learning curve each of us would have to take in order to use it properly. And maybe, since creating branches (and forks etc.) is so easy, it might also lead to more experimenting than neccessary.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
