@@ -25,7 +25,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 We'd probably create a lot of copies of files with different names then meet regularly to see which version of the files (or which portions of those files) we'd like to incorporate into the production code. It'd be a lot harder to keep track of who did what and based on which original version though. The only downside to using git is the learning curve each of us would have to take in order to use it properly. And maybe, since creating branches (and forks etc.) is so easy, it might also lead to more experimenting than neccessary.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+This kind of workflow is most useful when colaborating with others as it allows for "pull requests". Pull requests are a great tool to directly interact with other project members in order to incorporate a feature I programmed into the master branch.
